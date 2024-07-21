@@ -1,0 +1,294 @@
+.margarine-regular {
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    /* display: block; */
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+}
+.main2{
+    display: none;
+}
+.loginBg{
+    width: 50%;
+    height: 100%;
+    background-color: #c41d3e;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    /* margin: auto 0; */
+}
+.newLoginBgColor{
+    background-color: #CBCBCB;
+}
+.newSignupBgColor{
+    background-color: #c41d3e;
+}
+.login{
+    width: 80%;
+    height: 90%;
+    background-color: #CBCBCB;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow:  0 5px 10px 0 black; */
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    /* background-color: #6b4848; */
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2vh; */
+}
+.header h2{
+    margin-top: 10vh;
+    font-size: 5vh;
+}
+.social{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.social div{
+    width: 3vw;
+    height: 6vh;
+    /* background-color: #CBCBCB; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(29, 28, 28) inset,
+    -3px -3px 3px white inset;
+}
+.social div:hover{
+    box-shadow: 3px 3px 3px white inset,
+    -3px -3px 3px rgb(34, 33, 33) inset;
+    cursor: pointer;
+}
+.inputs{
+    height: 25vh;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+.inputs input{
+    height: 7vh;
+    width: 26vw;
+    border-radius: 2vh;
+    box-shadow: 3px 3px 3px rgb(51, 49, 49) ,
+    -3px -3px 3px white;
+    border: none;
+}
+.inputs input{
+    box-shadow: 3px 3px 3px white ,
+    -3px -3px 3px rgb(51, 49, 49);
+}
+.inputs input:hover{
+    box-shadow: 3px 3px 3px rgb(51, 49, 49) ,
+    -3px -3px 3px white;
+}
+.submitBtn{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+.submitBtn button{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 2vh;
+    box-shadow: 3px 3px 3px rgb(34, 33, 33) ,
+    -3px -3px 3px white;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+.submitBtn button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px white ,
+    -3px -3px 3px rgb(34, 33, 33);
+}
+.forgetPassword{
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 3vh;
+}
+.forgetPassword p:hover{
+    cursor: pointer;
+}
+.signupBg{
+    width: 50%;
+    height: 100%;
+    background-color: #CBCBCB;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
+.signup{
+    width: 80%;
+    height: 90%;
+    background-color: #c41d3e;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    /* box-shadow:  0 4px 10px 0 black; */
+    display: flex;
+    flex-direction: column;
+}
+.welcome{
+    height: 45vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-size: 4vh;
+}
+.welcome span{
+    font-family: "Black Ops One", system-ui;
+}
+.welcome h2{
+    margin-top: 20vh;
+}
+.newHere{
+    height: 10vh;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+}
+.newHere p{
+    margin-top: 0;
+}
+.SignUp{
+    height: 45vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+.SignUp button{
+    width: 10vw;
+    height: 7vh;
+    /* margin-top: 3vh; */
+    border-radius: 2vh;
+    box-shadow: 3px 3px 3px rgb(34, 33, 33) ,
+    -3px -3px 3px white;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: 500;
+    background-color: #c41d3e;
+    color: white;
+}
+.SignUp button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px white ,
+    -3px -3px 3px rgb(34, 33, 33);
+}
+/* onClick right side */
+.newloginBg{
+    height: 0;
+    width: 0;
+    background-color: #CBCBCB;
+}
+/* .onClickDisplay{
+    display: none;
+} */
+.newLogin{
+    width: 40%;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    z-index: 10;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+    display: none;
+}
+.newInputs{
+    height: 30vh;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+.newInputs input{
+    height: 5vh;
+    width: 22vw;
+    border-radius: 2vh;
+    box-shadow: 3px 3px 3px rgb(34, 33, 33) ,
+    -3px -3px 3px white;
+    border: none;
+}
+.newInputs input:hover{
+    box-shadow: 3px 3px 3px white,
+    -3px -3px 3px rgb(34, 33, 33);
+}
+.newSignupBg{
+    height: 0;
+    width: 0;
+    background-color: #c41d3e;
+}
+/* .onClickDisplay{
+    display: none;
+} */
+.newSignup{
+    width: 40%;
+    position: absolute;
+    top: 5vh;
+    right: 50vw;
+    z-index: 10;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius:5vh;
+    display: none;
+}
+.originalloginDisappear{
+    display: none;
+}
+.originalsignupDisappear{
+    display: none;
+}
